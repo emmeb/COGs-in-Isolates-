@@ -21,8 +21,11 @@ rects2 =ax.bar(index + width, gene2, width, color ='r', label ='gene2')
 ##axes and labels 
 ax.set_xlabel('Feature')
 ax.set_ylabel('Feature Counts')
-ax.set_xticks(index + width, ('Carbohydrates', 'Phosophorous Metabolism', 'Sulfer Metabolism', 'Amino Acids & Derivatives'))
+ax.set_xticks(index + width)
+ax.set_xticklabels(('Carbohydrates', 'Phosophorous Metabolism', 'Sulfer Metabolism', 'Amino Acids & Derivatives', 'Stress Responsess'))
 ax.legend()
+for tick in ax.get_xticklabels():
+    tick.set_rotation(45)
 
 
 plt.plot()
