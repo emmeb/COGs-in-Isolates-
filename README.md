@@ -25,7 +25,7 @@ Input Files:
   query.txt
   database.txt
 
-When the package Anaconda is downloaded, install Matplotlib, Numpy, Scipy, Venn3 on desired IDE. If using pycharm, click “file -> settings -> project interpreter -> “+” -> find desirable programs from list -> install. Ensure that all packages are located in the correct file path.
+When the package Anaconda is downloaded, install Matplotlib, Numpy, Scipy, Venn3 on desired IDE. If using pycharm, click “file -> settings -> project interpreter -> “+” -> find desirable programs from list -> install. Ensure that all packages and input files are located in the correct file path.
 All scripts and sample input files can be found on: https://github.com/emmeb/COGs-in-Isolates-.git
 
 
@@ -42,9 +42,10 @@ Sample data is included in the github repository. If you wish to use your own da
             NC_014248db,NC_014614db,NC_015671db 
       Ensure the list of file names in both documents are in   the same order. 
       
-In the system argument specify your query file, database file, percent identity and query coverage in this order. Percent identity and query coverage must be written to the tenth decimal place. 
+Once the program starts, you will need to specifiy the percent identity and query coverage in this order. Percent identity and query coverage must be written to the tenth decimal place. 
+To use different query and database files, specify the new file path within the program. 
 
-If using test data, the query file is “query.txt” and database file, “database.txt” 
+If using test data, the query file is “query.txt” and database file, “database.txt”. 
 
 
 
